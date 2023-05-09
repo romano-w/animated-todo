@@ -1,9 +1,9 @@
-import { extendTheme } from 'native-base';
+import { extendTheme } from 'native-base'
 
 const config = {
-    useSystemColorMode: false,
-    initialColorMode: 'dark',
-};
+  useSystemColorMode: false,
+  initialColorMode: 'dark'
+}
 
 const colors = {
     primary: {
@@ -18,18 +18,6 @@ const colors = {
         800: '#005885',
         900: '#003F5E',
     },
-    secondary: {
-        50: '#FDF2F8',
-        100: '#FCE7F3',
-        200: '#FBCFE8',
-        300: '#F9A8D4',
-        400: '#F472B6',
-        500: '#EC4899',
-        600: '#DB2777',
-        700: '#BE185D',
-        800: '#9D174D',
-        900: '#831843',
-    },
-};
+}
 
-export default extendTheme({ config, colors });
+export default extendTheme({ config, colors })
